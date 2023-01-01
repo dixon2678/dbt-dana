@@ -1,0 +1,8 @@
+dana:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: oauth
+      project: alpine-furnance-373410
+      dataset: dwh_main
