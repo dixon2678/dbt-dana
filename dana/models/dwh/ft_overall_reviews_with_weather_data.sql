@@ -8,7 +8,7 @@ SELECT CAST(reviews.date AS date) dte, *
 FROM `ods.yelp_academic_dataset_review` reviews
 )
 
-SELECT *
+SELECT dte.dte, dte.index, dte.review_id, dte.user_id, dte.business_id, dte.stars, dte.useful, dte.funny, dte.cool, dte.text, dte.date, clim.STATION, clim.LATITUDE, clim.LONGITUDE, clim.ELEVATION, clim.PRCP
 FROM dte
 INNER JOIN `ods.us_climate_philadelphia_daily_2019` clim
 ON dte.dte = clim.DATE
