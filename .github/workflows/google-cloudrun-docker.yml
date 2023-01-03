@@ -6,7 +6,7 @@ on:
       - main
 
 env:
-  PROJECT_ID: alpine-furnance-373410 # TODO: update Google Cloud project id
+  PROJECT_ID: alpine-furnace-373410 # TODO: update Google Cloud project id
   GAR_LOCATION: us-central1 # TODO: update Artifact Registry location
   GAR_REPO: dbt-dana
   SERVICE: dbt-dana # TODO: update Cloud Run service name
