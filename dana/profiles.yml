@@ -4,5 +4,5 @@ dana:
     dev:
       type: bigquery
       method: oauth
-      project: alpine-furnance-373410
+      project: alpine-furnace-373410
       dataset: dwh_main
